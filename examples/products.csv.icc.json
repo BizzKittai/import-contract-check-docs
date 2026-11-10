@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "delimiter": ",",
+  "ordered": true,
+  "fields": [
+    {"name": "sku", "type": "string", "required": true},
+    {"name": "price", "type": "decimal", "required": true, "minimum": 0},
+    {"name": "active", "type": "boolean", "required": true},
+    {"name": "launch_date", "type": "date", "required": true}
+  ],
+  "primaryKey": ["sku"]
+}
