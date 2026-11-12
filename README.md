@@ -24,7 +24,7 @@ Header drift; required values; integers, decimals, booleans and calendar dates; 
 
 Maximum 10 MiB CSV, 100,000 data records, 128 columns, 1,000,000 cells and 100,000 characters per cell. Up to 500 issues; reaching a limit marks the result incomplete. Reports omit data-cell values and input paths but include headers, positions and hashes, which may still be sensitive.
 
-Verified in **IntelliJ IDEA Community Edition 2025.2.6.4, build 252.28539.149, on macOS ARM64**. The current descriptor is limited to branch 252. Other products and operating systems have not been tested. Passing declared rules does not establish business correctness or guarantee that an importer will accept the file.
+Tested by hand in **IntelliJ IDEA Community Edition 2025.2.6.4, build 252.28539.149, on macOS ARM64**. From version 1.0.1 the plugin installs in IntelliJ-based IDEs from 2025.2 onwards; that version was checked with the JetBrains Plugin Verifier against IntelliJ IDEA 2025.2.6.4, 2025.3.6.2, 2026.1.5.1, 2026.2.4 and 2026.3. Other products and operating systems have not been tested by hand. Passing declared rules does not establish business correctness or guarantee that an importer will accept the file.
 
 No spreadsheet import, automatic schema inference, automatic data repair, remote validation or CI service is included.
 
